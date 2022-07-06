@@ -5,23 +5,148 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <!-- Remember to link to your CSS file! -->
+    <script src="https://kit.fontawesome.com/aa7d2f4be7.js" crossorigin="anonymous"></script>
+
+    <style>
+     html,
+body {
+    margin: 0;
+    padding: 0;
+    background-color: beige;
+    text-align: center;
+}
+
+h1,
+h2 {
+    color: darkred;
+}
+
+h3, 
+p,
+li {
+    color: green;
+}
+
+img {
+    width: 100%;
+    height: auto;
+    max-width: 100%;
+}
+
+main {
+    margin: 0 20%;
+}
+
+nav {
+    background-color: beige;
+    padding: 10px;
+}
+
+nav ul {
+    list-style-type: none;
+    text-align: center;
+}
+
+nav li {
+    display: inline;
+}
+
+nav a {
+    text-decoration: none;
+    font-size: 1.6em;
+    color: green;
+    margin-right: 25px;
+}
+
+nav a:hover {
+    color: darkred;
+}
+
+#banner {
+    width: 100%;
+    height: auto;
+    background-color: white;
+}
+
+#banner img {
+    width: 60%;
+    height: auto;
+}
+
+.service {
+    display: inline-block;
+    background-color: white;
+    border: 5px solid green;
+    border-radius: 5px;
+    color: darkred;
+    font-size: 2em;
+    padding: 20px;
+    margin: 10px;
+}
+
+table {
+    border: 3px solid black;
+    width: 100%;
+}
+  
+td,
+th {
+    border: 1px solid black;
+    padding: 5px;
+}
+
+nav {
+  width: 100%;
+}  
+#banner {
+  width: 100%;
+  height: auto;
+}
+.service {
+  display: inline-block;
+  text-align: center;
+}   
+    </style>
 </head>
 <body>
     <!-- CONTACT PAGE -->
     <!-- TODO: Navbar here -->
+    <div>
+        <nav>
+          <ul>
+            <li>
+              <a href="index.html">Home</a>
+              <a href="menu.html">Menu</a>
+              <a href="about.html">About</a>
+              <a href="Contact.html">Contact</a>
+              </a>
+            </li>
+          </ul>
+          </nav>
+          </div>
     <!-- TODO: Banner Image here-->
     <main>
+        <img src="C:\Users\joshu\OneDrive\Desktop\all.projects\Restaurant.menu\HTML-Restaurant-Menu\assets\images\banner.png">
         <h2>Hours of Operation</h2>
-        <p>
+
+        <div class="container">
+            <i class="fa-regular fa-clock"></i>
             <strong>Monday-Friday:</strong> 11:00am-8:30pm
-        </p>
-        <p>
-            <strong>Saturday-Sunday:</strong> 1:00pm-10:00pm
-        </p>
+        </div>
+            
+        <div class="container">
+            <i class="fa-regular fa-clock"></i>
+            <strong>Saturday-Sunday:</strong> 11:00am-8:30pm
+        </div>
+       
         <h2>Contact Info</h2>
-        <p>
-            <strong>Phone Number:</strong> TBD
-        </p>
+        <div class="container">
+            <i class="fa-solid fa-phone"></i>(805) 555-5555 
+        </div>
+       
     </main>
 </body>
+<script>
+    <script src="https://kit.fontawesome.com/aa7d2f4be7.js" crossorigin="anonymous"></script>
+</script>
 </html>
